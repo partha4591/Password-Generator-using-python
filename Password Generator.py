@@ -6,6 +6,7 @@ import random as r
 passwordSet = []
 
 # Exception handling if the user uses some gibberish words
+print('This is your new password generator!!!')
 while True:
     try:
         # Asking the user to set password length
@@ -27,3 +28,5 @@ r.shuffle(passwordSet)
 new_password = "".join(passwordSet[0:password_length])
 
 print("Your newly generated password is\n" + new_password)
+
+a = input()
